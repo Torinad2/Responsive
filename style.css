@@ -241,7 +241,7 @@ section p {
 .testimonial-section .testimonial-card {
     width: 442px;
     background: white;
-    box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 9px 36px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
     margin-bottom: 50px;
     position: relative;
@@ -400,4 +400,119 @@ section p {
 .courses-section .wrapper .btn {
     position: absolute;
     right: 0;
+}
+
+/* App Section */
+
+.app-section {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.app-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+.app-btn {
+    min-width: 310px;
+    background: black;
+    color: white;
+    padding: 20px 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.app-btn span {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Footer Section */
+
+footer {
+    background: var(--dark-color);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+
+    align-items: center;
+    justify-content: center;
+    gap: 132px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .copyright {
+    font-family: "Poppins", sans-serif;
+    padding-left: 36px;
+}
+
+footer h3 {
+    color: var(--orange-color);
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer ul li {
+    margin: 16px 0;
+}
+
+footer .social {
+    margin-left: 20px;
+}
+
+footer .social a {
+    margin-right: 28px;
+}
+
+footer form {
+    margin-left: 20px;
+    margin-top: 16px;
+    position: relative;
+}
+
+footer form input {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 200%;
+    color: black;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
+    width: 100%;
+}
+
+footer form .submit-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--dark-blue-color);
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: pointer;
 }
